@@ -6,12 +6,10 @@
 	- mock.js是阿里巴巴开源的工具库，基于此的还有RAP
   - 官方地址： http://mockjs.com/
   - 使用方法
-    在页面中引入mock.js
-	   
-`<script type="text/javascript" src="mock.js"></script>`
+    在页面中引入mock.js  
+  `<script type="text/javascript" src="mock.js"></script>`
 
-``
-<script>
+```<script>
   var data = Mock.mock({
       // 属性 list 的值是一个数组，其中含有 1 到 10 个元素
       'list|1-10': [{
@@ -21,22 +19,23 @@
     })
     // 输出结果
   console.log(JSON.stringify(data, null, 4))
-</script> 
-``
+</script>
+```
 
 ## faker.js (国外的)
   - 官方地址： https://github.com/marak/Faker.js/
 	- 使用方法：
-	　在页面中引入faker.js
-`<script src="faker.js" type="text/javascript"></script>`
-``
+	　在页面中引入faker.js	
+          `<script src="faker.js" type="text/javascript"></script>`
+
+```
 <script>
   var randomName = faker.name.findName();
   var randomEmail = faker.internet.email();
   var randomCard = faker.helpers.createCard();
   console.log(randomEmail);
 </script>
-``
+```
 
 #第二部分 mock http请求
 

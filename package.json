@@ -1,0 +1,19 @@
+{
+  "name": "mock-server",
+  "version": "1.0.0",
+  "description": "- mock.js是阿里巴巴开源的工具库，基于此的还有RAP\r   - 官方地址： http://mockjs.com/\r   - 使用方法\r     在页面中引入mock.js",
+  "main": "index.js",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "mockjs": "^1.0.1-beta2",
+    "puer": "^1.1.1",
+    "imitator": "^0.0.7",
+    "webpack": "^1.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
